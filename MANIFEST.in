@@ -1,0 +1,8 @@
+include version
+recursive-include facenet *
+prune facenet/test
+prune facenet/contributed
+prune facenet/data
+prune facenet/tmp
+prune facenet/util
+include requirements.txt
